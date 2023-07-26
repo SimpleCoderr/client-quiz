@@ -1,0 +1,14 @@
+.pannel {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.email {
+  font-size: 20px;
+  padding: 0 4px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+  @media (max-width: 556px) {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "antd/dist/reset.css";
+@import "./normalize.scss";
+@import "./vars.scss";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
