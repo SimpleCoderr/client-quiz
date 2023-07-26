@@ -1,7 +1,7 @@
 import axios from "axios";
 import { AuthResponse } from "shared/types";
 
-export const API_URL = "https://quiz-6u2xgybgn-yakobchukdanil-gmailcom.vercel.app/api";
+export const API_URL = "https://quiz-api-kohl.vercel.app/api";
 
 export const $api = axios.create({
   withCredentials: true,
